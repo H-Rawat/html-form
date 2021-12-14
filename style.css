@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  margin: 10px 30px 0 0;
+  justify-content: flex-end;
+}
+
+.header-text {
+  font-size: 14px;
+  padding-right: 6px;
+}
+
+header button {
+  width: 100px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
