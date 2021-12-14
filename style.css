@@ -54,12 +54,12 @@ input {
 
 .section-heading {
   font-size: 40px;
-  margin: 20px 0 20px 0;
+  margin: 20px 0;
 }
 
 .heading-1 {
   font-size: 25px;
-  margin: 20px 0 20px 0;
+  margin: 20px 0;
 }
 
 .heading-2 {
@@ -92,4 +92,20 @@ section button {
   background-color: blue;
   color: white;
   font-size: 20px;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  padding: 20px 0;
+  background-color: white;
+  justify-content: flex-end;
+}
+
+footer div {
+  text-align: center;
+  font-size: 12px;
+  padding: 0 200px;
 }
